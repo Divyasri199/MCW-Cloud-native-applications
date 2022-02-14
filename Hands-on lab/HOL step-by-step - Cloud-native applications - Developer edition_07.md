@@ -41,7 +41,7 @@ In this task, you will gather the information you need about your Azure Kubernet
 
 In this task, you will deploy the API application to the Azure Kubernetes Service cluster using the Azure Portal.
 
-1. From the Azure Portal, select the resource group named fabmedical-DeploymentId, and then select your Kubernetes Service Azure resource.
+1. From the Azure Portal, select the resource group named **fabmedical-[DeploymentId]**, and then select your Kubernetes Service Azure resource.
 
    ![In this screenshot, the resource group was previously selected and the AKS cluster is selected.](https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Cloud-native-applications/fix/Hands-on%20lab/local/ex3tsk7-step1.png "Select fabmedical resource group")
    
@@ -49,7 +49,7 @@ In this task, you will deploy the API application to the Azure Kubernetes Servic
 
    ![This is a screenshot of the Azure Portal for AKS showing adding a Namespace.](media_prod/Defaultapps.png "Add a Namespace")
 
-3. In the **Add with YAML** screen, paste the following YAML and choose **Add**.
+3. In the **Add with YAML** screen, paste the following YAML and click on **Add**.
 
     ```yaml
     apiVersion: v1
@@ -64,7 +64,7 @@ In this task, you will deploy the API application to the Azure Kubernetes Servic
 
    ![This is a screenshot of the Azure Portal for AKS showing adding a Service.](media_prod/ServiceandIngress.png "Add a Service")
 
-5. In the **Add with YAML** screen, paste following YAML and choose **Add**.
+5. In the **Add with YAML** screen, paste following YAML and click on **Add**.
 
     ```yaml
     apiVersion: v1
